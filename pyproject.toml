@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "databricks-tutorials"
+version = "0.1.0"
+description = "Collection of Databricks tutorials and practical use cases for learning and reference."
+authors = ["Tobías Chavarría <tobias.chavarria.castro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+databricks = "^0.2"
+databricks-cli = "^0.18.0"
+databricks-sql-connector = "^4.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
