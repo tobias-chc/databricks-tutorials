@@ -10,6 +10,8 @@ python = "^3.11"
 databricks = "^0.2"
 databricks-cli = "^0.18.0"
 databricks-sql-connector = "^4.0.0"
+click = "^8.1.8"
+databricks-connect = "^16.0.0"
 
 
 [build-system]
